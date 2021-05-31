@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRestApiWeb", "TestRestApiWeb\TestRestApiWeb.csproj", "{83AFBC2C-B06A-4FB2-8840-464C820426DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83AFBC2C-B06A-4FB2-8840-464C820426DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83AFBC2C-B06A-4FB2-8840-464C820426DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83AFBC2C-B06A-4FB2-8840-464C820426DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83AFBC2C-B06A-4FB2-8840-464C820426DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4692554C-5ACF-4138-B4CF-D296B6920B98}
+	EndGlobalSection
+EndGlobal
