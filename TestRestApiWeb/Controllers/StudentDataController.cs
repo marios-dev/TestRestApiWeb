@@ -11,26 +11,16 @@ namespace TestRestApiWeb.Controllers
     public class StudentDataController : ApiController
     {
         // GET: api/StudentData
-        public List <StudentDemoData> Get()
+        public List <StudentData> Get()
         {
-            StudentDataList sdList = new StudentDataList();
-            return sdList.studentDemoDatas;
+            StudentDBRep dbRep = new StudentDBRep();
+            return dbRep.GetAllStudentsRecord();
         }
 
         // GET: api/StudentData/5
         public StudentDemoData Get(int id)
         {  
-            StudentDemoData sdReturn=null;
-            StudentDataList sdList = new StudentDataList();
-            foreach (StudentDemoData sd in sdList.studentDemoDatas)
-            {
-                if (sd.Rollnum == id)
-                {
-                    sdReturn = sd;
-                    break;
-                }
-            }
-            return sdReturn;
+            return null;
         }
 
         // POST: api/StudentData

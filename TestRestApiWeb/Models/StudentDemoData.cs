@@ -31,7 +31,7 @@ namespace TestRestApiWeb.Models
 
             sd = new StudentDemoData();
             sd.Rollnum = 1003;
-            sd.Name = "Larios";
+            sd.Name = "Farios";
             sd.Course = "MDA";
             studentDemoDatas.Add(sd);
         }
